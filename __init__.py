@@ -1,6 +1,5 @@
 import os
-from PyQt6.QtGui import QAction
-from PyQt6.QtWidgets import QFileDialog
+from PyQt5.QtWidgets import QFileDialog, QAction
 from aqt import gui_hooks, qconnect
 from aqt import mw
 from aqt.sound import AVPlayer, play, clearAudioQueue
